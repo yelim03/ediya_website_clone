@@ -561,4 +561,159 @@ li {
   color: #243c84;
 }
 
+/*----Main Bottom Box----*/
+.mainBottom {
+  width: 100%;
+  max-width: 118rem;
+  margin: auto;
+  margin-top: 11rem;
+}
+.mainBottom:before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 56rem;
+  background: #efefef;
+  margin-top: -28rem;
+  left: 0;
+  z-index: -99;
+}
+.franchiseWrap,
+.storeWrap {
+  position: relative;
+  float: left;
+  width: 27.96%;
+  height: 33rem;
+  margin-right: 0.84%;
+  padding: 4.4rem 3.5rem 0 3.5rem;
+  background: url(https://ediya.com/images/main/main_franchise_bg.jpg) no-repeat
+    left;
+  background-size: cover;
+}
+.franchiseWrap h2,
+.storeWrap h2 {
+  font-size: 2.2rem;
+  font-weight: 60rem;
+  color: #fff;
+  line-height: 1.25em;
+}
+.franchiseWrap h2::after,
+.storeWrap h2::after {
+  display: block;
+  content: "";
+  width: 4.2rem;
+  height: 1px;
+  background: #fff;
+  margin-top: 2.3rem;
+}
+.storeWrap {
+  background: url(https://ediya.com/images/main/main_store_bg.jpg) no-repeat
+    right top #233e83;
+}
+.storeWrap p {
+  display: block;
+  margin-top: 2.7rem;
+  font-size: 1.7rem;
+  line-height: 1.4em;
+  color: #fff;
+}
+.storeBtn {
+  margin-top: 3.5rem;
+  width: 100%;
+  max-width: 32rem;
+  height: 4.4rem;
+  border: 3px solid #fff;
+  background: #1c3269;
+  padding-left: 2rem;
+  display: flex;
+}
+.storeBtn input {
+  width: 85%;
+  border: none;
+  background: #1c3269;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.storeBtn input::placeholder {
+  color: #fff;
+}
+.storeBtn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.storeBtn a i {
+  color: #fff;
+  font-size: 2rem;
+}
+.noticeWrap {
+  position: relative;
+  float: left;
+  width: 42.37%;
+  height: 33rem;
+}
+.noticeWrap .newsWrap {
+  width: 96%;
+  margin: 0.8rem 0 0 4%;
+}
+.newsWrap h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #202023;
+}
+.newsWrap > a {
+  float: right;
+  margin-top: -1.7rem;
+  font-size: 1.3rem;
+  line-height: 1.7em;
+  color: #202023;
+}
+.newsList {
+  display: table;
+  width: 100%;
+  margin-top: 2.1rem;
+}
+.newsList li {
+  margin-bottom: 0.4rem;
+}
+.newsList li a {
+  font-size: 1.5rem;
+  color: #7d7d7e;
+  line-height: 1.7em;
+}
+.newsList li span {
+  display: block;
+  float: right;
+  font-size: 1.3rem;
+  color: #a4a4a5;
+  margin-top: 0.2rem;
+}
+.brochureWrap {
+  position: absolute;
+  bottom: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 13.5rem;
+  background: #cbc3b2;
+}
+.brochureWrap h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-left: 3.5rem;
+  padding: 3.6rem 0 2.4rem 0;
+  color: #fff;
+  line-height: 1.1em;
+  background: url(https://ediya.com/images/main/main_brochure_arrow.png)
+    no-repeat bottom left;
+  cursor: pointer;
+}
+.brochureWrap img {
+  position: absolute;
+  top: -2.6rem;
+  right: 1.6rem;
+  width: auto;
+  height: auto;
+}
+
 /*----Footer----*/
