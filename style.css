@@ -27,7 +27,6 @@ header {
   top: 0;
   left: 0;
   border-bottom: 1px solid #e1e1e1;
-  transition: 0.5s;
   z-index: 9999;
 }
 .gnbWrap {
@@ -38,7 +37,7 @@ header {
   justify-content: space-between;
   border: none;
   background: #243c84;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .leftMenuWrap .siteMenu {
   display: flex;
@@ -181,13 +180,13 @@ header {
   bottom: -10px;
   left: 50%;
   background: #000;
-  width: 0px;
-  height: 2px;
+  width: 0;
+  height: 0.3rem;
   transform: translateX(-50%);
   transition: 0.1s;
 }
-.nav .navName:hover::before {
-  width: 50%;
+.nav > li:hover .navName::before {
+  width: 100%;
 }
 .nav .subNav {
   height: 0;
@@ -714,6 +713,71 @@ li {
   right: 1.6rem;
   width: auto;
   height: auto;
+}
+footer {
+  display: block;
+  position: relative;
+  clear: both;
+  width: 100%;
+  background: #262626;
+  text-align: center;
+}
+footer .footertUtilWrap {
+  border-bottom: 1px solid #464646;
+  padding: 1.6rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.footertUtilWrap ul {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+.footertUtilWrap ul li a {
+  font-size: 1.3rem;
+  color: #818181;
+  line-height: 1.7em;
+}
+.footertUtilWrap select {
+  width: 15rem;
+  height: 3rem;
+}
+.footerContents {
+  padding: 4rem 0;
+}
+.footerLogo {
+  width: auto;
+  height: auto;
+  margin-bottom: 2.4rem;
+}
+.footerText {
+  width: 90%;
+  max-width: 65rem;
+  margin: auto;
+  margin-bottom: 1.4rem;
+  font-size: 1.2rem;
+  color: #6c6c6c;
+  line-height: 1.7em;
+}
+.footerText span {
+  display: inline-block;
+  background: url(https://ediya.com/images/common/footer_line.gif) no-repeat
+    right;
+  margin-right: 1rem;
+  padding-right: 1rem;
+}
+.footerContents .copy {
+  padding-bottom: 3.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #6c6c6c;
+}
+.ccmMark {
+  position: absolute;
+  top: 8rem;
+  right: 15rem;
 }
 
 /*----Footer----*/

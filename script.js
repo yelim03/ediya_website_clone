@@ -1,13 +1,13 @@
-// $(function () {
-//   //Header Scroll Change
-//   $(window).scroll(function () {
-//     if ($(window).scrollTop() > 50) {
-//       $("header").addClass("active");
-//     } else {
-//       $("header").removeClass("active");
-//     }
-//   });
-// });
+$(function () {
+  //Header Scroll Change
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 50) {
+      $("header").addClass("active");
+    } else {
+      $("header").removeClass("active");
+    }
+  });
+});
 
 //Main Slide
 const slide = document.querySelector(".slide");
